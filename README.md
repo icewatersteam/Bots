@@ -3,7 +3,7 @@ Bots to interact with the IceWater ecosystem
 
 To run this program you will need a few things:
 
-**Infura project ID** (API token), this is available for free on infura.io, save this as a system enviromental variable or in the .env file which we will use. It can handle up to 100,000 calls with the free ID.
+**Infura project ID** (API token), this is available for free on infura.io, save this as a system enviromental variable or in the .env file which we will use. It can handle up to 100,000 calls a day with the free ID.
 
 **Ethereum wallet address and private key** These we will also store in the .env, add the .env file to a .gitignore to keep the wallets credential's safe.
 
@@ -12,4 +12,4 @@ This bot was made for the Icewater contracts as of 9/13/21, if the contracts sou
 Run like any other Python file: 
 $ python botv2.py
 
-Many values can be changed and customized, to make your own strategy follow along with the while loop in the main() function and tinker with the logic.
+Many values can be changed and customized, to make your own strategy follow along with the while loop in the main() function and tinker with whatever you like!
