@@ -7,9 +7,9 @@ To run this program you will need a few things:
 
 **Ethereum wallet address and private key** These we will also store in the .env, add the .env file to a .gitignore to keep the wallets credential's safe.
 
-This bot was made for the Icewater contracts as of 9/13/21, if the contracts source code doesn't change much then the ABI's won't need updating; otherwise new ABI's should be aquired. Make sure the addresses are up to date, along with appropriate gas values. By default, an average gas price will be used when sending the transactions, this can also be specified by adding 'gasPrice': VALUE inside the curly brackets in the buildTransaction function. VALUE should be an integer measured in wei. 
+These bots was made for the Icewater contracts begining 9/13/21, if the contracts source code doesn't change much then the ABI's won't need updating; otherwise new ABI's should be aquired. Make sure the addresses are up to date **(the addresses have been migrated to the .env in later versions)**, along with appropriate gas values. By default, an average gas price will be used when sending the transactions, this can also be specified by adding 'gasPrice': VALUE inside the curly brackets in the buildTransaction function. VALUE should be an integer measured in wei. 
 
 Run like any other Python file: 
-$ python botv2.py
+$ python bot____.py
 
 Many values can be changed and customized, to make your own strategy follow along with the while loop in the main() function and tinker with whatever you like!
